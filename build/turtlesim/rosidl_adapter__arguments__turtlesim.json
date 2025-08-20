@@ -1,0 +1,13 @@
+{
+  "package_name": "turtlesim",
+  "non_idl_tuples": [
+    "/home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/src/ros_tutorials/turtlesim:action/RotateAbsolute.action",
+    "/home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/src/ros_tutorials/turtlesim:msg/Color.msg",
+    "/home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/src/ros_tutorials/turtlesim:msg/Pose.msg",
+    "/home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/src/ros_tutorials/turtlesim:srv/Kill.srv",
+    "/home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/src/ros_tutorials/turtlesim:srv/SetPen.srv",
+    "/home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/src/ros_tutorials/turtlesim:srv/Spawn.srv",
+    "/home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/src/ros_tutorials/turtlesim:srv/TeleportAbsolute.srv",
+    "/home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/src/ros_tutorials/turtlesim:srv/TeleportRelative.srv"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "turtlesim__py",
+		"source" : "/home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/build/turtlesim/turtlesim__py"
+	}
+}

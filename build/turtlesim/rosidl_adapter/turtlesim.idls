@@ -1,0 +1,8 @@
+/home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/build/turtlesim/rosidl_adapter/turtlesim:action/RotateAbsolute.idl
+/home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/build/turtlesim/rosidl_adapter/turtlesim:msg/Color.idl
+/home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/build/turtlesim/rosidl_adapter/turtlesim:msg/Pose.idl
+/home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/build/turtlesim/rosidl_adapter/turtlesim:srv/Kill.idl
+/home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/build/turtlesim/rosidl_adapter/turtlesim:srv/SetPen.idl
+/home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/build/turtlesim/rosidl_adapter/turtlesim:srv/Spawn.idl
+/home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/build/turtlesim/rosidl_adapter/turtlesim:srv/TeleportAbsolute.idl
+/home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/build/turtlesim/rosidl_adapter/turtlesim:srv/TeleportRelative.idl

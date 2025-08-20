@@ -1,0 +1,642 @@
+[0.000000] (-) TimerEvent: {}
+[0.000360] (turtlesim) JobQueued: {'identifier': 'turtlesim', 'dependencies': OrderedDict()}
+[0.000398] (turtlesim) JobStarted: {'identifier': 'turtlesim'}
+[0.007294] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'cmake'}
+[0.007584] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '/home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/src/ros_tutorials/turtlesim', '-DCMAKE_INSTALL_PREFIX=/home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim'], 'cwd': '/home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/build/turtlesim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'vkommera'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vkommera'), ('OLDPWD', '/home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2007'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'vkommera'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vkommera'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/vkommera-B650M-Pro-RS-WiFi:@/tmp/.ICE-unix/1974,unix/vkommera-B650M-Pro-RS-WiFi:/tmp/.ICE-unix/1974'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ef2e0cef_a07d_4f27_9f89_4dee69f8caba'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.71RGB3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.133'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/build/turtlesim'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099926] (-) TimerEvent: {}
+[0.124469] (turtlesim) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.200014] (-) TimerEvent: {}
+[0.240726] (turtlesim) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.248603] (turtlesim) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.298383] (turtlesim) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.300069] (-) TimerEvent: {}
+[0.302355] (turtlesim) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.302782] (turtlesim) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.303283] (turtlesim) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.305695] (turtlesim) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.356636] (turtlesim) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.360659] (turtlesim) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.360838] (turtlesim) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.361094] (turtlesim) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.363555] (turtlesim) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.400134] (-) TimerEvent: {}
+[0.448795] (turtlesim) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.500222] (-) TimerEvent: {}
+[0.514299] (turtlesim) StdoutLine: {'line': b'-- Found ament_index_cpp: 1.4.0 (/opt/ros/humble/share/ament_index_cpp/cmake)\n'}
+[0.516305] (turtlesim) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.548570] (turtlesim) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.552754] (turtlesim) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.560154] (turtlesim) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.570814] (turtlesim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.583610] (turtlesim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.600291] (-) TimerEvent: {}
+[0.630154] (turtlesim) StdoutLine: {'line': b'-- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.661363] (turtlesim) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.664179] (turtlesim) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.700356] (-) TimerEvent: {}
+[0.728852] (turtlesim) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.744935] (turtlesim) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.768515] (turtlesim) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.776726] (turtlesim) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.800428] (-) TimerEvent: {}
+[0.830096] (turtlesim) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.830237] (turtlesim) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.875768] (turtlesim) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.876438] (turtlesim) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.900506] (-) TimerEvent: {}
+[0.905986] (turtlesim) StdoutLine: {'line': b'-- Found rclcpp_action: 16.0.14 (/opt/ros/humble/share/rclcpp_action/cmake)\n'}
+[0.933822] (turtlesim) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.940967] (turtlesim) StdoutLine: {'line': b'-- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[1.000590] (-) TimerEvent: {}
+[1.100811] (-) TimerEvent: {}
+[1.104183] (turtlesim) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.200906] (-) TimerEvent: {}
+[1.275342] (turtlesim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.300970] (-) TimerEvent: {}
+[1.338507] (turtlesim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.350314] (turtlesim) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[1.351484] (turtlesim) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.366528] (turtlesim) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[1.366638] (turtlesim) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.366702] (turtlesim) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.366752] (turtlesim) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.378736] (turtlesim) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.401044] (-) TimerEvent: {}
+[1.412058] (turtlesim) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.450925] (turtlesim) StdoutLine: {'line': b'-- Generating done\n'}
+[1.461348] (turtlesim) StdoutLine: {'line': b'-- Build files have been written to: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/build/turtlesim\n'}
+[1.470369] (turtlesim) CommandEnded: {'returncode': 0}
+[1.471608] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'build'}
+[1.471648] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/build/turtlesim', '--', '-j16', '-l16'], 'cwd': '/home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/build/turtlesim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'vkommera'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vkommera'), ('OLDPWD', '/home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2007'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'vkommera'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vkommera'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/vkommera-B650M-Pro-RS-WiFi:@/tmp/.ICE-unix/1974,unix/vkommera-B650M-Pro-RS-WiFi:/tmp/.ICE-unix/1974'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ef2e0cef_a07d_4f27_9f89_4dee69f8caba'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.71RGB3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.133'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/build/turtlesim'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.498521] (turtlesim) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.501107] (-) TimerEvent: {}
+[1.504359] (turtlesim) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.508277] (turtlesim) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_copy_turtlesim\n'}
+[1.601211] (-) TimerEvent: {}
+[1.611078] (turtlesim) StdoutLine: {'line': b'running egg_info\n'}
+[1.611321] (turtlesim) StdoutLine: {'line': b'creating turtlesim.egg-info\n'}
+[1.611403] (turtlesim) StdoutLine: {'line': b'writing turtlesim.egg-info/PKG-INFO\n'}
+[1.611472] (turtlesim) StdoutLine: {'line': b'writing dependency_links to turtlesim.egg-info/dependency_links.txt\n'}
+[1.611522] (turtlesim) StdoutLine: {'line': b'writing top-level names to turtlesim.egg-info/top_level.txt\n'}
+[1.611594] (turtlesim) StdoutLine: {'line': b"writing manifest file 'turtlesim.egg-info/SOURCES.txt'\n"}
+[1.613048] (turtlesim) StdoutLine: {'line': b"reading manifest file 'turtlesim.egg-info/SOURCES.txt'\n"}
+[1.613261] (turtlesim) StdoutLine: {'line': b"writing manifest file 'turtlesim.egg-info/SOURCES.txt'\n"}
+[1.626562] (turtlesim) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_build_turtlesim_egg\n'}
+[1.701289] (-) TimerEvent: {}
+[1.801445] (-) TimerEvent: {}
+[1.901657] (-) TimerEvent: {}
+[1.920460] (turtlesim) StdoutLine: {'line': b'[  2%] Built target turtlesim__cpp\n'}
+[1.926867] (turtlesim) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.927057] (turtlesim) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[1.927177] (turtlesim) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.942325] (turtlesim) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/msg/detail/color__functions.c.o\x1b[0m\n'}
+[1.942510] (turtlesim) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/kill__functions.c.o\x1b[0m\n'}
+[1.942564] (turtlesim) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/set_pen__functions.c.o\x1b[0m\n'}
+[1.942608] (turtlesim) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/spawn__functions.c.o\x1b[0m\n'}
+[1.942652] (turtlesim) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/msg/detail/pose__functions.c.o\x1b[0m\n'}
+[1.942704] (turtlesim) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/action/detail/rotate_absolute__functions.c.o\x1b[0m\n'}
+[1.942750] (turtlesim) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/teleport_absolute__functions.c.o\x1b[0m\n'}
+[1.942790] (turtlesim) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/teleport_relative__functions.c.o\x1b[0m\n'}
+[2.001726] (-) TimerEvent: {}
+[2.030655] (turtlesim) StdoutLine: {'line': b'[ 14%] \x1b[32m\x1b[1mLinking C shared library libturtlesim__rosidl_generator_c.so\x1b[0m\n'}
+[2.056529] (turtlesim) StdoutLine: {'line': b'[ 14%] Built target turtlesim__rosidl_generator_c\n'}
+[2.062141] (turtlesim) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[2.062237] (turtlesim) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.062273] (turtlesim) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.101804] (-) TimerEvent: {}
+[2.185572] (turtlesim) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/msg/pose__type_support.cpp.o\x1b[0m\n'}
+[2.185895] (turtlesim) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/msg/color__type_support.cpp.o\x1b[0m\n'}
+[2.185958] (turtlesim) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/srv/kill__type_support.cpp.o\x1b[0m\n'}
+[2.186004] (turtlesim) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/action/rotate_absolute__type_support.cpp.o\x1b[0m\n'}
+[2.186046] (turtlesim) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/srv/set_pen__type_support.cpp.o\x1b[0m\n'}
+[2.186344] (turtlesim) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/srv/teleport_relative__type_support.cpp.o\x1b[0m\n'}
+[2.186483] (turtlesim) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/srv/spawn__type_support.cpp.o\x1b[0m\n'}
+[2.186852] (turtlesim) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/srv/teleport_absolute__type_support.cpp.o\x1b[0m\n'}
+[2.201891] (-) TimerEvent: {}
+[2.263590] (turtlesim) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/msg/detail/pose__type_support.cpp.o\x1b[0m\n'}
+[2.263756] (turtlesim) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/srv/detail/kill__type_support.cpp.o\x1b[0m\n'}
+[2.263807] (turtlesim) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/action/detail/rotate_absolute__type_support.cpp.o\x1b[0m\n'}
+[2.263850] (turtlesim) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/msg/detail/color__type_support.cpp.o\x1b[0m\n'}
+[2.301983] (-) TimerEvent: {}
+[2.403728] (-) TimerEvent: {}
+[2.430038] (turtlesim) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/srv/detail/spawn__type_support.cpp.o\x1b[0m\n'}
+[2.430230] (turtlesim) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/srv/detail/set_pen__type_support.cpp.o\x1b[0m\n'}
+[2.434025] (turtlesim) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/srv/detail/teleport_absolute__type_support.cpp.o\x1b[0m\n'}
+[2.434273] (turtlesim) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/action/rotate_absolute__type_support.cpp.o\x1b[0m\n'}
+[2.439116] (turtlesim) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/msg/color__type_support.cpp.o\x1b[0m\n'}
+[2.439658] (turtlesim) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/srv/detail/teleport_relative__type_support.cpp.o\x1b[0m\n'}
+[2.442503] (turtlesim) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/msg/pose__type_support.cpp.o\x1b[0m\n'}
+[2.458630] (turtlesim) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/kill__type_support.cpp.o\x1b[0m\n'}
+[2.471882] (turtlesim) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/set_pen__type_support.cpp.o\x1b[0m\n'}
+[2.472085] (turtlesim) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/spawn__type_support.cpp.o\x1b[0m\n'}
+[2.473784] (turtlesim) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/action/detail/dds_fastrtps/rotate_absolute__type_support.cpp.o\x1b[0m\n'}
+[2.485142] (turtlesim) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/teleport_absolute__type_support.cpp.o\x1b[0m\n'}
+[2.489527] (turtlesim) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/teleport_relative__type_support.cpp.o\x1b[0m\n'}
+[2.502948] (turtlesim) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/msg/detail/dds_fastrtps/color__type_support.cpp.o\x1b[0m\n'}
+[2.503803] (-) TimerEvent: {}
+[2.510446] (turtlesim) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/msg/detail/dds_fastrtps/pose__type_support.cpp.o\x1b[0m\n'}
+[2.518647] (turtlesim) StdoutLine: {'line': b'[ 45%] \x1b[32m\x1b[1mLinking CXX shared library libturtlesim__rosidl_typesupport_c.so\x1b[0m\n'}
+[2.532526] (turtlesim) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/srv/detail/dds_fastrtps/kill__type_support.cpp.o\x1b[0m\n'}
+[2.562238] (turtlesim) StdoutLine: {'line': b'[ 46%] Built target turtlesim__rosidl_typesupport_c\n'}
+[2.563670] (turtlesim) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/srv/detail/dds_fastrtps/set_pen__type_support.cpp.o\x1b[0m\n'}
+[2.571169] (turtlesim) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/srv/detail/dds_fastrtps/spawn__type_support.cpp.o\x1b[0m\n'}
+[2.578381] (turtlesim) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/srv/detail/dds_fastrtps/teleport_absolute__type_support.cpp.o\x1b[0m\n'}
+[2.604926] (-) TimerEvent: {}
+[2.605150] (turtlesim) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/srv/detail/dds_fastrtps/teleport_relative__type_support.cpp.o\x1b[0m\n'}
+[2.626791] (turtlesim) StdoutLine: {'line': b'[ 52%] \x1b[32m\x1b[1mLinking CXX shared library libturtlesim__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[2.627967] (turtlesim) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/action/detail/rotate_absolute__type_support.c.o\x1b[0m\n'}
+[2.661733] (turtlesim) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/action/detail/rotate_absolute__type_support_c.cpp.o\x1b[0m\n'}
+[2.683477] (turtlesim) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/msg/detail/color__type_support.c.o\x1b[0m\n'}
+[2.696591] (turtlesim) StdoutLine: {'line': b'[ 54%] Built target turtlesim__rosidl_typesupport_cpp\n'}
+[2.705037] (-) TimerEvent: {}
+[2.710948] (turtlesim) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/msg/detail/pose__type_support.c.o\x1b[0m\n'}
+[2.717246] (turtlesim) StdoutLine: {'line': b'[ 56%] \x1b[34m\x1b[1mGenerating include/turtlesim/moc_turtle_frame.cpp\x1b[0m\n'}
+[2.725986] (turtlesim) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/srv/detail/kill__type_support.c.o\x1b[0m\n'}
+[2.729550] (turtlesim) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/msg/detail/color__type_support_c.cpp.o\x1b[0m\n'}
+[2.729746] (turtlesim) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/turtle_teleop_key.dir/tutorials/teleop_turtle_key.cpp.o\x1b[0m\n'}
+[2.741317] (turtlesim) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/draw_square.dir/tutorials/draw_square.cpp.o\x1b[0m\n'}
+[2.752151] (turtlesim) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libturtlesim__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[2.761524] (turtlesim) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/mimic.dir/tutorials/mimic.cpp.o\x1b[0m\n'}
+[2.764588] (turtlesim) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/srv/detail/set_pen__type_support.c.o\x1b[0m\n'}
+[2.801913] (turtlesim) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/srv/detail/spawn__type_support.c.o\x1b[0m\n'}
+[2.805119] (-) TimerEvent: {}
+[2.820595] (turtlesim) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/srv/detail/teleport_absolute__type_support.c.o\x1b[0m\n'}
+[2.829795] (turtlesim) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/msg/detail/pose__type_support_c.cpp.o\x1b[0m\n'}
+[2.840884] (turtlesim) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/srv/detail/kill__type_support_c.cpp.o\x1b[0m\n'}
+[2.844475] (turtlesim) StdoutLine: {'line': b'[ 67%] Built target turtlesim__rosidl_typesupport_introspection_cpp\n'}
+[2.854776] (turtlesim) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/srv/detail/set_pen__type_support_c.cpp.o\x1b[0m\n'}
+[2.854954] (turtlesim) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/srv/detail/teleport_relative__type_support.c.o\x1b[0m\n'}
+[2.863418] (turtlesim) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_node.dir/src/turtlesim.cpp.o\x1b[0m\n'}
+[2.863608] (turtlesim) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/srv/detail/spawn__type_support_c.cpp.o\x1b[0m\n'}
+[2.886038] (turtlesim) StdoutLine: {'line': b'[ 72%] \x1b[32m\x1b[1mLinking C shared library libturtlesim__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[2.897904] (turtlesim) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/srv/detail/teleport_absolute__type_support_c.cpp.o\x1b[0m\n'}
+[2.900562] (turtlesim) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_node.dir/src/turtle.cpp.o\x1b[0m\n'}
+[2.905205] (-) TimerEvent: {}
+[2.906095] (turtlesim) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_node.dir/src/turtle_frame.cpp.o\x1b[0m\n'}
+[2.919935] (turtlesim) StdoutLine: {'line': b'[ 75%] Built target turtlesim__rosidl_typesupport_introspection_c\n'}
+[2.928608] (turtlesim) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/srv/detail/teleport_relative__type_support_c.cpp.o\x1b[0m\n'}
+[2.935186] (turtlesim) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_node.dir/include/turtlesim/moc_turtle_frame.cpp.o\x1b[0m\n'}
+[2.959635] (turtlesim) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking CXX shared library libturtlesim__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[3.005300] (-) TimerEvent: {}
+[3.027589] (turtlesim) StdoutLine: {'line': b'[ 78%] Built target turtlesim__rosidl_typesupport_fastrtps_cpp\n'}
+[3.105398] (-) TimerEvent: {}
+[3.165467] (turtlesim) StdoutLine: {'line': b'[ 79%] \x1b[32m\x1b[1mLinking CXX shared library libturtlesim__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[3.205686] (-) TimerEvent: {}
+[3.210830] (turtlesim) StdoutLine: {'line': b'[ 79%] Built target turtlesim__rosidl_typesupport_fastrtps_c\n'}
+[3.224100] (turtlesim) StdoutLine: {'line': b'[ 79%] Built target turtlesim\n'}
+[3.238639] (turtlesim) StdoutLine: {'line': b'[ 80%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[3.305741] (-) TimerEvent: {}
+[3.406044] (-) TimerEvent: {}
+[3.506296] (-) TimerEvent: {}
+[3.606553] (-) TimerEvent: {}
+[3.706811] (-) TimerEvent: {}
+[3.807046] (-) TimerEvent: {}
+[3.907286] (-) TimerEvent: {}
+[4.007516] (-) TimerEvent: {}
+[4.075041] (turtlesim) StdoutLine: {'line': b'[ 80%] Built target turtlesim__py\n'}
+[4.089169] (turtlesim) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/msg/_pose_s.c.o\x1b[0m\n'}
+[4.089367] (turtlesim) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/srv/_kill_s.c.o\x1b[0m\n'}
+[4.089417] (turtlesim) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/action/_rotate_absolute_s.c.o\x1b[0m\n'}
+[4.089455] (turtlesim) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/srv/_spawn_s.c.o\x1b[0m\n'}
+[4.089489] (turtlesim) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/srv/_teleport_absolute_s.c.o\x1b[0m\n'}
+[4.089521] (turtlesim) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/srv/_set_pen_s.c.o\x1b[0m\n'}
+[4.089552] (turtlesim) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/msg/_color_s.c.o\x1b[0m\n'}
+[4.089591] (turtlesim) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/srv/_teleport_relative_s.c.o\x1b[0m\n'}
+[4.107627] (-) TimerEvent: {}
+[4.207963] (-) TimerEvent: {}
+[4.211825] (turtlesim) StdoutLine: {'line': b'[ 89%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/turtlesim/libturtlesim__rosidl_generator_py.so\x1b[0m\n'}
+[4.242112] (turtlesim) StdoutLine: {'line': b'[ 89%] Built target turtlesim__rosidl_generator_py\n'}
+[4.257746] (turtlesim) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/turtlesim/_turtlesim_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[4.257930] (turtlesim) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/turtlesim/_turtlesim_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[4.257980] (turtlesim) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/turtlesim/_turtlesim_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[4.308082] (-) TimerEvent: {}
+[4.349669] (turtlesim) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[4.376176] (turtlesim) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[4.376390] (turtlesim) StdoutLine: {'line': b'[ 94%] Built target turtlesim__rosidl_typesupport_introspection_c__pyext\n'}
+[4.387986] (turtlesim) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[4.403568] (turtlesim) StdoutLine: {'line': b'[ 95%] Built target turtlesim__rosidl_typesupport_c__pyext\n'}
+[4.408171] (-) TimerEvent: {}
+[4.416036] (turtlesim) StdoutLine: {'line': b'[ 95%] Built target turtlesim__rosidl_typesupport_fastrtps_c__pyext\n'}
+[4.508275] (-) TimerEvent: {}
+[4.608559] (-) TimerEvent: {}
+[4.708846] (-) TimerEvent: {}
+[4.809120] (-) TimerEvent: {}
+[4.909402] (-) TimerEvent: {}
+[5.009666] (-) TimerEvent: {}
+[5.109940] (-) TimerEvent: {}
+[5.210218] (-) TimerEvent: {}
+[5.310494] (-) TimerEvent: {}
+[5.410759] (-) TimerEvent: {}
+[5.511035] (-) TimerEvent: {}
+[5.611297] (-) TimerEvent: {}
+[5.711567] (-) TimerEvent: {}
+[5.811850] (-) TimerEvent: {}
+[5.912120] (-) TimerEvent: {}
+[6.012388] (-) TimerEvent: {}
+[6.112656] (-) TimerEvent: {}
+[6.212923] (-) TimerEvent: {}
+[6.313180] (-) TimerEvent: {}
+[6.383675] (turtlesim) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking CXX executable turtle_teleop_key\x1b[0m\n'}
+[6.413268] (-) TimerEvent: {}
+[6.513490] (-) TimerEvent: {}
+[6.544325] (turtlesim) StdoutLine: {'line': b'[ 96%] Built target turtle_teleop_key\n'}
+[6.613581] (-) TimerEvent: {}
+[6.713808] (-) TimerEvent: {}
+[6.814023] (-) TimerEvent: {}
+[6.914218] (-) TimerEvent: {}
+[7.014395] (-) TimerEvent: {}
+[7.114573] (-) TimerEvent: {}
+[7.214793] (-) TimerEvent: {}
+[7.315006] (-) TimerEvent: {}
+[7.415216] (-) TimerEvent: {}
+[7.515431] (-) TimerEvent: {}
+[7.615646] (-) TimerEvent: {}
+[7.715868] (-) TimerEvent: {}
+[7.814055] (turtlesim) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking CXX executable mimic\x1b[0m\n'}
+[7.815925] (-) TimerEvent: {}
+[7.916091] (-) TimerEvent: {}
+[8.016311] (-) TimerEvent: {}
+[8.027918] (turtlesim) StdoutLine: {'line': b'[ 97%] Built target mimic\n'}
+[8.116395] (-) TimerEvent: {}
+[8.161181] (turtlesim) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking CXX executable draw_square\x1b[0m\n'}
+[8.216482] (-) TimerEvent: {}
+[8.316713] (-) TimerEvent: {}
+[8.395389] (turtlesim) StdoutLine: {'line': b'[ 98%] Built target draw_square\n'}
+[8.416798] (-) TimerEvent: {}
+[8.517000] (-) TimerEvent: {}
+[8.617202] (-) TimerEvent: {}
+[8.717407] (-) TimerEvent: {}
+[8.817609] (-) TimerEvent: {}
+[8.917823] (-) TimerEvent: {}
+[9.018028] (-) TimerEvent: {}
+[9.118234] (-) TimerEvent: {}
+[9.218449] (-) TimerEvent: {}
+[9.318654] (-) TimerEvent: {}
+[9.418870] (-) TimerEvent: {}
+[9.519097] (-) TimerEvent: {}
+[9.619321] (-) TimerEvent: {}
+[9.719504] (-) TimerEvent: {}
+[9.819714] (-) TimerEvent: {}
+[9.919925] (-) TimerEvent: {}
+[9.974906] (turtlesim) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable turtlesim_node\x1b[0m\n'}
+[10.020008] (-) TimerEvent: {}
+[10.120202] (-) TimerEvent: {}
+[10.220420] (-) TimerEvent: {}
+[10.320657] (-) TimerEvent: {}
+[10.420873] (-) TimerEvent: {}
+[10.521087] (-) TimerEvent: {}
+[10.621301] (-) TimerEvent: {}
+[10.721481] (-) TimerEvent: {}
+[10.821704] (-) TimerEvent: {}
+[10.921919] (-) TimerEvent: {}
+[11.010819] (turtlesim) StdoutLine: {'line': b'[100%] Built target turtlesim_node\n'}
+[11.019249] (turtlesim) CommandEnded: {'returncode': 0}
+[11.019590] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'install'}
+[11.021970] (-) TimerEvent: {}
+[11.023991] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/build/turtlesim'], 'cwd': '/home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/build/turtlesim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'vkommera'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vkommera'), ('OLDPWD', '/home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2007'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'vkommera'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vkommera'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/vkommera-B650M-Pro-RS-WiFi:@/tmp/.ICE-unix/1974,unix/vkommera-B650M-Pro-RS-WiFi:/tmp/.ICE-unix/1974'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ef2e0cef_a07d_4f27_9f89_4dee69f8caba'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.71RGB3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.133'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/build/turtlesim'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[11.028883] (turtlesim) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.029027] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/share/ament_index/resource_index/rosidl_interfaces/turtlesim\n'}
+[11.029129] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim\n'}
+[11.029207] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[11.029263] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_generator_c__visibility_control.h\n'}
+[11.029325] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/msg/color.h\n'}
+[11.029392] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[11.029443] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__struct.h\n'}
+[11.029512] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__functions.h\n'}
+[11.029588] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.h\n'}
+[11.029656] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__functions.h\n'}
+[11.029732] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.h\n'}
+[11.029797] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__functions.c\n'}
+[11.029868] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__functions.c\n'}
+[11.029939] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__struct.h\n'}
+[11.030006] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/msg/pose.h\n'}
+[11.030074] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[11.030121] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/srv/kill.h\n'}
+[11.030188] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/srv/spawn.h\n'}
+[11.030255] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/srv/set_pen.h\n'}
+[11.030318] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[11.030372] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__functions.c\n'}
+[11.030450] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__struct.h\n'}
+[11.030520] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__functions.c\n'}
+[11.030596] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__functions.c\n'}
+[11.030682] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__functions.h\n'}
+[11.030758] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__struct.h\n'}
+[11.030825] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__functions.h\n'}
+[11.030898] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__functions.h\n'}
+[11.030974] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__functions.c\n'}
+[11.031052] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.h\n'}
+[11.031123] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__struct.h\n'}
+[11.031191] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__functions.c\n'}
+[11.031267] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.h\n'}
+[11.031336] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.h\n'}
+[11.031403] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.h\n'}
+[11.031471] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__functions.h\n'}
+[11.031549] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__functions.h\n'}
+[11.031623] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__struct.h\n'}
+[11.031701] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__struct.h\n'}
+[11.031770] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.h\n'}
+[11.031839] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_relative.h\n'}
+[11.031906] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_absolute.h\n'}
+[11.031970] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[11.032026] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/action/rotate_absolute.h\n'}
+[11.032096] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[11.032145] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.h\n'}
+[11.032217] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__struct.h\n'}
+[11.032288] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__functions.c\n'}
+[11.032393] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__functions.h\n'}
+[11.032553] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/share/turtlesim/environment/library_path.sh\n'}
+[11.032638] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/share/turtlesim/environment/library_path.dsv\n'}
+[11.032764] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/lib/libturtlesim__rosidl_generator_c.so\n'}
+[11.033062] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/lib/libturtlesim__rosidl_generator_c.so" to ""\n'}
+[11.033115] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim\n'}
+[11.033148] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[11.033188] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[11.033209] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_c.h\n'}
+[11.033242] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_c.h\n'}
+[11.033304] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[11.033368] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[11.033394] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[11.033421] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_c.h\n'}
+[11.033493] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_c.h\n'}
+[11.033566] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_c.h\n'}
+[11.033635] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_c.h\n'}
+[11.033801] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_c.h\n'}
+[11.033841] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[11.033862] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[11.033882] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_c.h\n'}
+[11.033921] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_c.so\n'}
+[11.034190] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[11.034226] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim\n'}
+[11.034264] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[11.034285] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[11.034329] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[11.034362] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__struct.hpp\n'}
+[11.034432] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.hpp\n'}
+[11.034501] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__builder.hpp\n'}
+[11.034570] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__traits.hpp\n'}
+[11.034637] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__builder.hpp\n'}
+[11.034709] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__traits.hpp\n'}
+[11.034779] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.hpp\n'}
+[11.034846] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__struct.hpp\n'}
+[11.034916] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/msg/color.hpp\n'}
+[11.034985] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/msg/pose.hpp\n'}
+[11.035049] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[11.035081] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/srv/kill.hpp\n'}
+[11.035141] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_relative.hpp\n'}
+[11.035208] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/srv/spawn.hpp\n'}
+[11.035270] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[11.035308] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.hpp\n'}
+[11.035371] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__struct.hpp\n'}
+[11.035446] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__traits.hpp\n'}
+[11.035519] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.hpp\n'}
+[11.035589] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__builder.hpp\n'}
+[11.035660] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.hpp\n'}
+[11.035735] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.hpp\n'}
+[11.035806] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__traits.hpp\n'}
+[11.035880] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__traits.hpp\n'}
+[11.035954] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__struct.hpp\n'}
+[11.036027] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__traits.hpp\n'}
+[11.036100] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__struct.hpp\n'}
+[11.036176] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__builder.hpp\n'}
+[11.036246] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__struct.hpp\n'}
+[11.036321] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__builder.hpp\n'}
+[11.036394] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__builder.hpp\n'}
+[11.036466] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__builder.hpp\n'}
+[11.036536] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__struct.hpp\n'}
+[11.036613] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.hpp\n'}
+[11.036688] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__traits.hpp\n'}
+[11.036764] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_absolute.hpp\n'}
+[11.036833] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/srv/set_pen.hpp\n'}
+[11.036896] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[11.036926] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/action/rotate_absolute.hpp\n'}
+[11.036985] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[11.037021] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__builder.hpp\n'}
+[11.037085] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__traits.hpp\n'}
+[11.037166] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__struct.hpp\n'}
+[11.037256] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.hpp\n'}
+[11.037343] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim\n'}
+[11.037378] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[11.037412] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[11.037465] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[11.037499] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/msg/detail/dds_fastrtps\n'}
+[11.037542] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[11.037614] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[11.037684] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[11.037727] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[11.037829] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/srv/detail/dds_fastrtps\n'}
+[11.037904] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[11.037953] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[11.038033] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[11.038124] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[11.038216] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[11.038298] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[11.038334] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[11.038370] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/action/detail/dds_fastrtps\n'}
+[11.038421] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[11.038557] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_cpp.so\n'}
+[11.038992] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[11.039034] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim\n'}
+[11.039072] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[11.039104] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[11.039135] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_c.h\n'}
+[11.039194] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.c\n'}
+[11.039266] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_introspection_c.h\n'}
+[11.039333] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.c\n'}
+[11.039404] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[11.039467] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[11.039500] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[11.039534] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.c\n'}
+[11.039600] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.c\n'}
+[11.039681] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_c.h\n'}
+[11.039756] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_c.h\n'}
+[11.039828] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.c\n'}
+[11.039908] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.c\n'}
+[11.039986] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_c.h\n'}
+[11.040056] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_c.h\n'}
+[11.040127] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.c\n'}
+[11.040207] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_c.h\n'}
+[11.040273] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[11.040306] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[11.040339] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_c.h\n'}
+[11.040394] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.c\n'}
+[11.040521] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_c.so\n'}
+[11.040837] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_c.so" to ""\n'}
+[11.040882] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/lib/libturtlesim__rosidl_typesupport_c.so\n'}
+[11.041113] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/lib/libturtlesim__rosidl_typesupport_c.so" to ""\n'}
+[11.041147] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim\n'}
+[11.041182] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[11.041204] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[11.041244] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_introspection_cpp.hpp\n'}
+[11.041294] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.cpp\n'}
+[11.041368] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_cpp.hpp\n'}
+[11.041439] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.cpp\n'}
+[11.041508] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[11.041541] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[11.041568] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.cpp\n'}
+[11.041647] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_cpp.hpp\n'}
+[11.041732] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_cpp.hpp\n'}
+[11.041811] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_cpp.hpp\n'}
+[11.041882] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.cpp\n'}
+[11.041967] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.cpp\n'}
+[11.042049] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.cpp\n'}
+[11.042133] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.cpp\n'}
+[11.042212] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_cpp.hpp\n'}
+[11.042291] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_cpp.hpp\n'}
+[11.042360] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[11.042392] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[11.042423] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.cpp\n'}
+[11.042504] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_cpp.hpp\n'}
+[11.042602] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_cpp.so\n'}
+[11.042900] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[11.042937] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/lib/libturtlesim__rosidl_typesupport_cpp.so\n'}
+[11.043176] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/lib/libturtlesim__rosidl_typesupport_cpp.so" to ""\n'}
+[11.043212] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/share/turtlesim/environment/pythonpath.sh\n'}
+[11.043299] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/share/turtlesim/environment/pythonpath.dsv\n'}
+[11.043377] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info\n'}
+[11.043488] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info/dependency_links.txt\n'}
+[11.043557] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info/PKG-INFO\n'}
+[11.043625] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info/top_level.txt\n'}
+[11.043698] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info/SOURCES.txt\n'}
+[11.043785] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim\n'}
+[11.043841] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.043958] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg\n'}
+[11.044009] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_color.py\n'}
+[11.044081] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/__init__.py\n'}
+[11.044151] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_pose_s.c\n'}
+[11.044221] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_pose.py\n'}
+[11.044293] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_color_s.c\n'}
+[11.044364] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_c.c\n'}
+[11.044501] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[11.044652] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.044774] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv\n'}
+[11.044827] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_relative.py\n'}
+[11.044905] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_relative_s.c\n'}
+[11.044977] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_spawn_s.c\n'}
+[11.045051] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_spawn.py\n'}
+[11.045126] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_set_pen_s.c\n'}
+[11.045197] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/__init__.py\n'}
+[11.045265] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_kill.py\n'}
+[11.045340] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_absolute.py\n'}
+[11.045416] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_kill_s.c\n'}
+[11.045487] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_set_pen.py\n'}
+[11.045565] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_absolute_s.c\n'}
+[11.045636] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/__init__.py\n'}
+[11.045703] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action\n'}
+[11.045755] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/_rotate_absolute.py\n'}
+[11.045852] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/__init__.py\n'}
+[11.045921] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/_rotate_absolute_s.c\n'}
+[11.046017] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[11.046189] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/libturtlesim__rosidl_generator_py.so\n'}
+[11.046315] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.071101] (turtlesim) StdoutLine: {'line': b"Listing '/home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim'...\n"}
+[11.071190] (turtlesim) StdoutLine: {'line': b"Compiling '/home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/__init__.py'...\n"}
+[11.071236] (turtlesim) StdoutLine: {'line': b"Listing '/home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action'...\n"}
+[11.071274] (turtlesim) StdoutLine: {'line': b"Compiling '/home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/__init__.py'...\n"}
+[11.071308] (turtlesim) StdoutLine: {'line': b"Compiling '/home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/_rotate_absolute.py'...\n"}
+[11.071339] (turtlesim) StdoutLine: {'line': b"Listing '/home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg'...\n"}
+[11.071370] (turtlesim) StdoutLine: {'line': b"Compiling '/home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/__init__.py'...\n"}
+[11.071401] (turtlesim) StdoutLine: {'line': b"Compiling '/home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_color.py'...\n"}
+[11.071432] (turtlesim) StdoutLine: {'line': b"Compiling '/home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_pose.py'...\n"}
+[11.071462] (turtlesim) StdoutLine: {'line': b"Listing '/home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv'...\n"}
+[11.071492] (turtlesim) StdoutLine: {'line': b"Compiling '/home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/__init__.py'...\n"}
+[11.071522] (turtlesim) StdoutLine: {'line': b"Compiling '/home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_kill.py'...\n"}
+[11.071552] (turtlesim) StdoutLine: {'line': b"Compiling '/home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_set_pen.py'...\n"}
+[11.071582] (turtlesim) StdoutLine: {'line': b"Compiling '/home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_spawn.py'...\n"}
+[11.071612] (turtlesim) StdoutLine: {'line': b"Compiling '/home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_absolute.py'...\n"}
+[11.071645] (turtlesim) StdoutLine: {'line': b"Compiling '/home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_relative.py'...\n"}
+[11.073513] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.073822] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[11.073944] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.074192] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[11.074292] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.074506] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[11.074557] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/lib/libturtlesim__rosidl_generator_py.so\n'}
+[11.074891] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/lib/libturtlesim__rosidl_generator_py.so" to ""\n'}
+[11.074971] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/share/turtlesim/action/RotateAbsolute.idl\n'}
+[11.075104] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/share/turtlesim/msg/Color.idl\n'}
+[11.075188] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/share/turtlesim/msg/Pose.idl\n'}
+[11.075298] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/share/turtlesim/srv/Kill.idl\n'}
+[11.075381] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/share/turtlesim/srv/SetPen.idl\n'}
+[11.075469] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/share/turtlesim/srv/Spawn.idl\n'}
+[11.075548] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.idl\n'}
+[11.075633] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/share/turtlesim/srv/TeleportRelative.idl\n'}
+[11.075719] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/share/turtlesim/action/RotateAbsolute.action\n'}
+[11.075806] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/share/turtlesim/msg/Color.msg\n'}
+[11.075885] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/share/turtlesim/msg/Pose.msg\n'}
+[11.075970] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/share/turtlesim/srv/Kill.srv\n'}
+[11.076053] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/share/turtlesim/srv/Kill_Request.msg\n'}
+[11.076139] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/share/turtlesim/srv/Kill_Response.msg\n'}
+[11.076214] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/share/turtlesim/srv/SetPen.srv\n'}
+[11.076297] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/share/turtlesim/srv/SetPen_Request.msg\n'}
+[11.076382] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/share/turtlesim/srv/SetPen_Response.msg\n'}
+[11.076468] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/share/turtlesim/srv/Spawn.srv\n'}
+[11.076547] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/share/turtlesim/srv/Spawn_Request.msg\n'}
+[11.076633] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/share/turtlesim/srv/Spawn_Response.msg\n'}
+[11.076720] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.srv\n'}
+[11.076812] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Request.msg\n'}
+[11.076896] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Response.msg\n'}
+[11.076982] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/share/turtlesim/srv/TeleportRelative.srv\n'}
+[11.077064] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/share/turtlesim/srv/TeleportRelative_Request.msg\n'}
+[11.077149] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/share/turtlesim/srv/TeleportRelative_Response.msg\n'}
+[11.077267] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/lib/turtlesim/turtlesim_node\n'}
+[11.084870] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/lib/turtlesim/turtlesim_node" to ""\n'}
+[11.084923] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/lib/turtlesim/turtle_teleop_key\n'}
+[11.086278] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/lib/turtlesim/turtle_teleop_key" to ""\n'}
+[11.086319] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/lib/turtlesim/draw_square\n'}
+[11.089771] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/lib/turtlesim/draw_square" to ""\n'}
+[11.089846] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/lib/turtlesim/mimic\n'}
+[11.093029] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/lib/turtlesim/mimic" to ""\n'}
+[11.093071] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/share/turtlesim/images\n'}
+[11.093127] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/share/turtlesim/images/humble.png\n'}
+[11.093212] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/share/turtlesim/images/bouncy.png\n'}
+[11.093271] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/share/turtlesim/images/foxy.png\n'}
+[11.093336] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/share/turtlesim/images/galactic.png\n'}
+[11.093399] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/share/turtlesim/images/ardent.png\n'}
+[11.093472] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/share/turtlesim/images/dashing.png\n'}
+[11.093543] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/share/turtlesim/images/eloquent.png\n'}
+[11.093612] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/share/turtlesim/images/rolling.png\n'}
+[11.093680] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/share/turtlesim/images/crystal.png\n'}
+[11.093779] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/share/turtlesim/launch\n'}
+[11.093827] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/share/turtlesim/launch/multisim.launch.py\n'}
+[11.093952] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/share/ament_index/resource_index/package_run_dependencies/turtlesim\n'}
+[11.094073] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/share/ament_index/resource_index/parent_prefix_path/turtlesim\n'}
+[11.094166] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/share/turtlesim/environment/ament_prefix_path.sh\n'}
+[11.094256] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/share/turtlesim/environment/ament_prefix_path.dsv\n'}
+[11.094341] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/share/turtlesim/environment/path.sh\n'}
+[11.094428] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/share/turtlesim/environment/path.dsv\n'}
+[11.094512] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/share/turtlesim/local_setup.bash\n'}
+[11.094600] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/share/turtlesim/local_setup.sh\n'}
+[11.094697] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/share/turtlesim/local_setup.zsh\n'}
+[11.094786] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/share/turtlesim/local_setup.dsv\n'}
+[11.094870] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/share/turtlesim/package.dsv\n'}
+[11.094992] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/share/ament_index/resource_index/packages/turtlesim\n'}
+[11.095108] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cExport.cmake\n'}
+[11.095206] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cExport-noconfig.cmake\n'}
+[11.095301] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[11.095396] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[11.095490] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cppExport.cmake\n'}
+[11.095590] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[11.095687] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[11.095814] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport.cmake\n'}
+[11.095905] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[11.096009] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport.cmake\n'}
+[11.096106] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[11.096206] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[11.096296] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[11.096396] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport.cmake\n'}
+[11.096489] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[11.096587] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_pyExport.cmake\n'}
+[11.096679] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_pyExport-noconfig.cmake\n'}
+[11.096774] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/share/turtlesim/cmake/rosidl_cmake-extras.cmake\n'}
+[11.096864] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[11.096958] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[11.097042] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[11.097136] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[11.097226] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[11.097318] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[11.097403] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/share/turtlesim/cmake/turtlesimConfig.cmake\n'}
+[11.097474] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/share/turtlesim/cmake/turtlesimConfig-version.cmake\n'}
+[11.097562] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/turtlesim/share/turtlesim/package.xml\n'}
+[11.099086] (turtlesim) CommandEnded: {'returncode': 0}
+[11.114044] (turtlesim) JobEnded: {'identifier': 'turtlesim', 'rc': 0}
+[11.114309] (-) EventReactorShutdown: {}
