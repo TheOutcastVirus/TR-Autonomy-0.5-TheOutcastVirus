@@ -1,0 +1,10 @@
+/home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/build/vikrams_package/CMakeFiles/uninstall.dir
+/home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/build/vikrams_package/CMakeFiles/vikrams_package_uninstall.dir
+/home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/build/vikrams_package/CMakeFiles/my_node.dir
+/home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/build/vikrams_package/CMakeFiles/test.dir
+/home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/build/vikrams_package/CMakeFiles/edit_cache.dir
+/home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/build/vikrams_package/CMakeFiles/rebuild_cache.dir
+/home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/build/vikrams_package/CMakeFiles/list_install_components.dir
+/home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/build/vikrams_package/CMakeFiles/install.dir
+/home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/build/vikrams_package/CMakeFiles/install/local.dir
+/home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/build/vikrams_package/CMakeFiles/install/strip.dir

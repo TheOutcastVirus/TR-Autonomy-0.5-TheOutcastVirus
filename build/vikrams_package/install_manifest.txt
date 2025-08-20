@@ -1,0 +1,16 @@
+/home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/vikrams_package/lib/vikrams_package/my_node
+/home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/vikrams_package/share/ament_index/resource_index/package_run_dependencies/vikrams_package
+/home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/vikrams_package/share/ament_index/resource_index/parent_prefix_path/vikrams_package
+/home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/vikrams_package/share/vikrams_package/environment/ament_prefix_path.sh
+/home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/vikrams_package/share/vikrams_package/environment/ament_prefix_path.dsv
+/home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/vikrams_package/share/vikrams_package/environment/path.sh
+/home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/vikrams_package/share/vikrams_package/environment/path.dsv
+/home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/vikrams_package/share/vikrams_package/local_setup.bash
+/home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/vikrams_package/share/vikrams_package/local_setup.sh
+/home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/vikrams_package/share/vikrams_package/local_setup.zsh
+/home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/vikrams_package/share/vikrams_package/local_setup.dsv
+/home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/vikrams_package/share/vikrams_package/package.dsv
+/home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/vikrams_package/share/ament_index/resource_index/packages/vikrams_package
+/home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/vikrams_package/share/vikrams_package/cmake/vikrams_packageConfig.cmake
+/home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/vikrams_package/share/vikrams_package/cmake/vikrams_packageConfig-version.cmake
+/home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/vikrams_package/share/vikrams_package/package.xml

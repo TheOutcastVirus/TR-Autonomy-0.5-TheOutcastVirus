@@ -1,0 +1,8 @@
+source;share/vikrams_package/hook/cmake_prefix_path.ps1
+source;share/vikrams_package/hook/cmake_prefix_path.dsv
+source;share/vikrams_package/hook/cmake_prefix_path.sh
+source;share/vikrams_package/local_setup.bash
+source;share/vikrams_package/local_setup.dsv
+source;share/vikrams_package/local_setup.ps1
+source;share/vikrams_package/local_setup.sh
+source;share/vikrams_package/local_setup.zsh

@@ -1,0 +1,51 @@
+[0.005s] Invoking command in '/home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/build/vikrams_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/src/vikrams_package -DCMAKE_INSTALL_PREFIX=/home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/vikrams_package
+[0.038s] -- The C compiler identification is GNU 11.4.0
+[0.072s] -- The CXX compiler identification is GNU 11.4.0
+[0.077s] -- Detecting C compiler ABI info
+[0.116s] -- Detecting C compiler ABI info - done
+[0.121s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.121s] -- Detecting C compile features
+[0.121s] -- Detecting C compile features - done
+[0.123s] -- Detecting CXX compiler ABI info
+[0.171s] -- Detecting CXX compiler ABI info - done
+[0.175s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.176s] -- Detecting CXX compile features
+[0.176s] -- Detecting CXX compile features - done
+[0.177s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.258s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.304s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.351s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.351s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/src/vikrams_package/include>
+[0.351s] -- Configured cppcheck exclude dirs and/or files: 
+[0.352s] -- Added test 'lint_cmake' to check CMake code style
+[0.352s] -- Added test 'uncrustify' to check C / C++ code style
+[0.352s] -- Configured uncrustify additional arguments: 
+[0.353s] -- Added test 'xmllint' to check XML markup files
+[0.353s] -- Configuring done
+[0.356s] -- Generating done
+[0.357s] -- Build files have been written to: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/build/vikrams_package
+[0.361s] Invoked command in '/home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/build/vikrams_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/src/vikrams_package -DCMAKE_INSTALL_PREFIX=/home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/vikrams_package
+[0.361s] Invoking command in '/home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/build/vikrams_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/build/vikrams_package -- -j16 -l16
+[0.390s] [ 50%] [32mBuilding CXX object CMakeFiles/my_node.dir/src/my_node.cpp.o[0m
+[0.407s] [100%] [32m[1mLinking CXX executable my_node[0m
+[0.434s] [100%] Built target my_node
+[0.441s] Invoked command in '/home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/build/vikrams_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/build/vikrams_package -- -j16 -l16
+[0.442s] Invoking command in '/home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/build/vikrams_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/build/vikrams_package
+[0.446s] -- Install configuration: ""
+[0.446s] -- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/vikrams_package/lib/vikrams_package/my_node
+[0.446s] -- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/vikrams_package/share/ament_index/resource_index/package_run_dependencies/vikrams_package
+[0.446s] -- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/vikrams_package/share/ament_index/resource_index/parent_prefix_path/vikrams_package
+[0.446s] -- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/vikrams_package/share/vikrams_package/environment/ament_prefix_path.sh
+[0.447s] -- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/vikrams_package/share/vikrams_package/environment/ament_prefix_path.dsv
+[0.447s] -- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/vikrams_package/share/vikrams_package/environment/path.sh
+[0.447s] -- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/vikrams_package/share/vikrams_package/environment/path.dsv
+[0.447s] -- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/vikrams_package/share/vikrams_package/local_setup.bash
+[0.447s] -- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/vikrams_package/share/vikrams_package/local_setup.sh
+[0.447s] -- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/vikrams_package/share/vikrams_package/local_setup.zsh
+[0.447s] -- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/vikrams_package/share/vikrams_package/local_setup.dsv
+[0.447s] -- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/vikrams_package/share/vikrams_package/package.dsv
+[0.447s] -- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/vikrams_package/share/ament_index/resource_index/packages/vikrams_package
+[0.447s] -- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/vikrams_package/share/vikrams_package/cmake/vikrams_packageConfig.cmake
+[0.447s] -- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/vikrams_package/share/vikrams_package/cmake/vikrams_packageConfig-version.cmake
+[0.448s] -- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/vikrams_package/share/vikrams_package/package.xml
+[0.449s] Invoked command in '/home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/build/vikrams_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/build/vikrams_package

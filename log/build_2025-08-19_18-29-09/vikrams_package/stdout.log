@@ -1,0 +1,33 @@
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/src/vikrams_package/include>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/build/vikrams_package
+[35m[1mConsolidate compiler generated dependencies of target my_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/my_node.dir/src/my_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable my_node[0m
+[100%] Built target my_node
+-- Install configuration: ""
+-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/vikrams_package/lib/vikrams_package/my_node
+-- Up-to-date: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/vikrams_package/share/ament_index/resource_index/package_run_dependencies/vikrams_package
+-- Up-to-date: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/vikrams_package/share/ament_index/resource_index/parent_prefix_path/vikrams_package
+-- Up-to-date: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/vikrams_package/share/vikrams_package/environment/ament_prefix_path.sh
+-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/vikrams_package/share/vikrams_package/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/vikrams_package/share/vikrams_package/environment/path.sh
+-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/vikrams_package/share/vikrams_package/environment/path.dsv
+-- Up-to-date: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/vikrams_package/share/vikrams_package/local_setup.bash
+-- Up-to-date: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/vikrams_package/share/vikrams_package/local_setup.sh
+-- Up-to-date: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/vikrams_package/share/vikrams_package/local_setup.zsh
+-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/vikrams_package/share/vikrams_package/local_setup.dsv
+-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/vikrams_package/share/vikrams_package/package.dsv
+-- Up-to-date: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/vikrams_package/share/ament_index/resource_index/packages/vikrams_package
+-- Up-to-date: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/vikrams_package/share/vikrams_package/cmake/vikrams_packageConfig.cmake
+-- Up-to-date: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/vikrams_package/share/vikrams_package/cmake/vikrams_packageConfig-version.cmake
+-- Installing: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/vikrams_package/share/vikrams_package/package.xml

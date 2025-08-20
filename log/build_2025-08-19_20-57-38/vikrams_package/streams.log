@@ -1,0 +1,23 @@
+[0.006s] Invoking command in '/home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/build/vikrams_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/build/vikrams_package -- -j16 -l16
+[0.029s] [35m[1mConsolidate compiler generated dependencies of target my_node[0m
+[0.035s] [100%] Built target my_node
+[0.042s] Invoked command in '/home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/build/vikrams_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/build/vikrams_package -- -j16 -l16
+[0.049s] Invoking command in '/home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/build/vikrams_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/build/vikrams_package
+[0.054s] -- Install configuration: ""
+[0.054s] -- Up-to-date: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/vikrams_package/lib/vikrams_package/my_node
+[0.054s] -- Up-to-date: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/vikrams_package/share/ament_index/resource_index/package_run_dependencies/vikrams_package
+[0.054s] -- Up-to-date: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/vikrams_package/share/ament_index/resource_index/parent_prefix_path/vikrams_package
+[0.054s] -- Up-to-date: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/vikrams_package/share/vikrams_package/environment/ament_prefix_path.sh
+[0.054s] -- Up-to-date: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/vikrams_package/share/vikrams_package/environment/ament_prefix_path.dsv
+[0.054s] -- Up-to-date: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/vikrams_package/share/vikrams_package/environment/path.sh
+[0.054s] -- Up-to-date: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/vikrams_package/share/vikrams_package/environment/path.dsv
+[0.054s] -- Up-to-date: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/vikrams_package/share/vikrams_package/local_setup.bash
+[0.054s] -- Up-to-date: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/vikrams_package/share/vikrams_package/local_setup.sh
+[0.054s] -- Up-to-date: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/vikrams_package/share/vikrams_package/local_setup.zsh
+[0.054s] -- Up-to-date: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/vikrams_package/share/vikrams_package/local_setup.dsv
+[0.054s] -- Up-to-date: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/vikrams_package/share/vikrams_package/package.dsv
+[0.054s] -- Up-to-date: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/vikrams_package/share/ament_index/resource_index/packages/vikrams_package
+[0.054s] -- Up-to-date: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/vikrams_package/share/vikrams_package/cmake/vikrams_packageConfig.cmake
+[0.054s] -- Up-to-date: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/vikrams_package/share/vikrams_package/cmake/vikrams_packageConfig-version.cmake
+[0.054s] -- Up-to-date: /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/install/vikrams_package/share/vikrams_package/package.xml
+[0.056s] Invoked command in '/home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/build/vikrams_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/vkommera/Documents/Triton Robotics/TR-Autonomy-0.5-TheOutcastVirus/build/vikrams_package
